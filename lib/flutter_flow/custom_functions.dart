@@ -9,6 +9,7 @@ import 'lat_lng.dart';
 import 'place.dart';
 import 'uploaded_file.dart';
 import '/backend/schema/structs/index.dart';
+import '/auth/notset_auth/auth_util.dart';
 
 List<String> stringToLitString(String text) {
   return text.split('&');
